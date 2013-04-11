@@ -1,0 +1,9 @@
+C:\Users\AyslanRodrigo\Documents\Visual Studio 2012\Projects\ARBiblioteca\ARBiblioteca.Aplicacao\bin\Debug\ARBiblioteca.Aplicacao.dll
+C:\Users\AyslanRodrigo\Documents\Visual Studio 2012\Projects\ARBiblioteca\ARBiblioteca.Aplicacao\bin\Debug\ARBiblioteca.Aplicacao.pdb
+C:\Users\AyslanRodrigo\Documents\Visual Studio 2012\Projects\ARBiblioteca\ARBiblioteca.Aplicacao\bin\Debug\ARBiblioteca.Dominio.dll
+C:\Users\AyslanRodrigo\Documents\Visual Studio 2012\Projects\ARBiblioteca\ARBiblioteca.Aplicacao\bin\Debug\ARBiblioteca.Repositorio.dll
+C:\Users\AyslanRodrigo\Documents\Visual Studio 2012\Projects\ARBiblioteca\ARBiblioteca.Aplicacao\bin\Debug\ARBiblioteca.Dominio.pdb
+C:\Users\AyslanRodrigo\Documents\Visual Studio 2012\Projects\ARBiblioteca\ARBiblioteca.Aplicacao\bin\Debug\ARBiblioteca.Repositorio.pdb
+C:\Users\AyslanRodrigo\Documents\Visual Studio 2012\Projects\ARBiblioteca\ARBiblioteca.Aplicacao\obj\Debug\ARBiblioteca.Aplicacao.csprojResolveAssemblyReference.cache
+C:\Users\AyslanRodrigo\Documents\Visual Studio 2012\Projects\ARBiblioteca\ARBiblioteca.Aplicacao\obj\Debug\ARBiblioteca.Aplicacao.dll
+C:\Users\AyslanRodrigo\Documents\Visual Studio 2012\Projects\ARBiblioteca\ARBiblioteca.Aplicacao\obj\Debug\ARBiblioteca.Aplicacao.pdb

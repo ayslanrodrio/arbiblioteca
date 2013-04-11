@@ -1,0 +1,30 @@
+﻿@model ARBiblioteca.Dominio.Usuario
+
+@{
+    ViewBag.Title = "Detalhes";
+}
+
+<h2>Detalhes</h2>
+
+<fieldset>
+    <legend>Usuario</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Nome)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Nome)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Login)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Login)
+    </div>
+
+</fieldset>
+<p>
+    @Html.ActionLink("Editar", "Editar", new { id=Model.UsuarioId }) |
+    @Html.ActionLink("Voltar", "Index")
+</p>

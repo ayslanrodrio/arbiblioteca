@@ -1,0 +1,47 @@
+﻿@model ARBiblioteca.Dominio.Livro
+
+@{
+    ViewBag.Title = "Excluir";
+}
+
+<h2>Excluir</h2>
+
+<h3>Deseja excluir?</h3>
+<fieldset>
+    <legend>Livros</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Titulo)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Titulo)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Autor)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Autor)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Ano)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Ano)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Editora)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Editora)
+    </div>
+</fieldset>
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    <p>
+        <input type="submit" value="Excluir" /> |
+        @Html.ActionLink("Cancelar", "Index")
+    </p>
+}

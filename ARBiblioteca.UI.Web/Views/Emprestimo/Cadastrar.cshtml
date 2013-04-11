@@ -1,0 +1,56 @@
+﻿@model ARBiblioteca.Dominio.Emprestimo
+
+@{
+    ViewBag.Title = "Cadastrar";
+}
+
+<h2>Emprestimos</h2>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Alunos</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.CodAluno)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.CodAluno)
+            @Html.ValidationMessageFor(model => model.CodAluno)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.CodLivro)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.CodLivro)
+            @Html.ValidationMessageFor(model => model.CodLivro)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.DataEmprestimo)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.DataEmprestimo)
+            @Html.ValidationMessageFor(model => model.DataEmprestimo)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.DataDevolucao)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.DataDevolucao)
+            @Html.ValidationMessageFor(model => model.DataDevolucao)
+        </div>
+
+        <p>
+            <input type="submit" value="Cadastrar" /> @Html.ActionLink("Voltar", "Index")
+        </p>
+    </fieldset>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

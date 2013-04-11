@@ -1,0 +1,45 @@
+﻿@model IEnumerable<ARBiblioteca.Dominio.Aluno>
+
+@{
+    ViewBag.Title = "Página Inicial - Alunos";
+}
+
+<h2>Cadastro de Livros</h2>
+
+<p>
+    @Html.ActionLink("Cadastrar Novo", "Cadastrar")
+</p>
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DataNascimento)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NomeMae)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nome)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DataNascimento)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NomeMae)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Editar", new { id=item.CodAluno}) |
+            @Html.ActionLink("Detalhes", "Detalhes", new { id=item.CodAluno }) |
+            @Html.ActionLink("Excluir", "Excluir", new { id=item.CodAluno})
+        </td>
+    </tr>
+}
+
+</table>

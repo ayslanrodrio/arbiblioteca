@@ -1,0 +1,43 @@
+﻿@model ARBiblioteca.Dominio.Livro
+
+@{
+    ViewBag.Title = "Detalhes";
+}
+
+<h2>Detalhes</h2>
+
+<fieldset>
+    <legend>Livros</legend>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.Titulo)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Titulo)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.Autor)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Autor)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.Ano)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Ano)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.Editora)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Editora)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Editar", "Editar", new { id = Model.CodLivro }) |
+    @Html.ActionLink("Voltar", "Index")
+</p>

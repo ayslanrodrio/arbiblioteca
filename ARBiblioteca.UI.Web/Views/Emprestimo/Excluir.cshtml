@@ -1,0 +1,47 @@
+﻿@model ARBiblioteca.Dominio.Emprestimo
+@{
+    ViewBag.Title = "Excluir";
+}
+
+<h2>Emprestimos</h2>
+
+<h3>Deseja excluir?</h3>
+<fieldset>
+    <legend>Emprestimos</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CodAluno)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CodAluno)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CodLivro)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CodLivro)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.DataEmprestimo)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.DataEmprestimo)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.DataDevolucao)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.DataDevolucao)
+    </div>
+    
+</fieldset>
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    <p>
+        <input type="submit" value="Excluir" /> |
+        @Html.ActionLink("Cancelar", "Index")
+    </p>
+}

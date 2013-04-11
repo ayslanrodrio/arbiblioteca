@@ -1,0 +1,5 @@
+C:\Users\AyslanRodrigo\Documents\Visual Studio 2012\Projects\ARBiblioteca\ARBiblioteca.Dominio\bin\Debug\ARBiblioteca.Dominio.dll
+C:\Users\AyslanRodrigo\Documents\Visual Studio 2012\Projects\ARBiblioteca\ARBiblioteca.Dominio\bin\Debug\ARBiblioteca.Dominio.pdb
+C:\Users\AyslanRodrigo\Documents\Visual Studio 2012\Projects\ARBiblioteca\ARBiblioteca.Dominio\obj\Debug\ARBiblioteca.Dominio.csprojResolveAssemblyReference.cache
+C:\Users\AyslanRodrigo\Documents\Visual Studio 2012\Projects\ARBiblioteca\ARBiblioteca.Dominio\obj\Debug\ARBiblioteca.Dominio.dll
+C:\Users\AyslanRodrigo\Documents\Visual Studio 2012\Projects\ARBiblioteca\ARBiblioteca.Dominio\obj\Debug\ARBiblioteca.Dominio.pdb
